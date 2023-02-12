@@ -11,9 +11,15 @@ public class IndexController {
 		return "index";
 	}
 	
-	@RequestMapping("/userLogin")
+	@RequestMapping("/userlogin")
 	public String userLogin()
 	{
-		return "userLogin";
+		return "userlogin";
+	}
+	
+	@RequestMapping("/usersingup")
+	public String userSignup()
+	{
+		return "usersingup";
 	}
 }
